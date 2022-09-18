@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int a,b,c=90;
+    if((a+b)>c)
+        printf("sum is greater than c");
+    else
+        printf("less than c");
+ }
+
