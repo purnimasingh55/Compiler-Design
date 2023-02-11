@@ -1,0 +1,80 @@
+Keywords:
+
+
+<HTML></HTML>
+<head>
+   <tittle></tittle>
+
+</head>
+<body><body>
+ Headings : <h1></h1> <h2> <h3> <h4> <h5> <h6>
+<div>
+   Argument : style
+</div>
+<img>
+    arguments: src, width,height, alt 
+</img>
+<p>
+
+</p>
+<a>
+
+   aruements: href
+</a>  
+
+<br> //no closing tag
+<i></i>//italic
+<b></b> //bold
+
+
+Table: 
+<table>
+
+arguments: border, bordercolor, width, height,align
+
+<caption>  
+<tr>   bgcolor </tr>
+<th></th>
+<td>  arguements: colspan, rowspan </td>
+</caption>
+</table>
+
+
+Form: 
+<form>
+<textarea> 
+  argument: name,id,cols,rows,
+</textarea>
+<input>
+arguments: type,name,value,id,required,maxlength,checked
+</input>
+<select> 
+arguments: name,id,required,size,multiple
+</select>
+<fieldset><fieldset>
+<textarea>
+argument: rows,cols,name
+</textarea>
+
+
+List:
+<ul>
+arguments: type
+</ul>
+<li></li>
+<ol>
+arguments: type,start
+</ol>
+<dl>
+<dt></dt>
+<dd></dd>
+</dl>
+
+
+
+
+
+
+
+
+

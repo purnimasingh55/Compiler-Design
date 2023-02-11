@@ -1,0 +1,43 @@
+G --> <N>G<\N>|epsilon
+
+
+N --> html|head|tittle|body|HEADING|div|img|p|a|FORMATING
+      HTML|HEAD|TITTLE|BODY|                  
+      |DIV|IMG|P|TABLE|LIST| |TABLE    
+      |FORM|charnum
+
+
+
+TABLE --> table|TableTags
+TableTags --> TD|TH|TR|CAPTION|tr|th|td|charnum|caption
+
+LIST --> list|ListTags
+ListTags --> ul|li|ol|dl|dt|dd|UL|LI|OL|DL|DT|DD|charnum|epsilon
+
+FORM --> form|FORMTAGS
+FORMTAGS --> textarea|input|select|fieldset|TEXTARE|INPUT|SELECT|FIELDSET|charnum|epsilon
+
+
+
+HEADING --> JK
+J-> h1|h2|h3|h4|h5|h6|charnum|epsilon
+K -> H1|H2|H3|H5|H6|charnum|epsilon
+
+
+FORMATING -->CAPS|SMALL
+CAPS--> I|U|STRONG|ABBR|B
+SMALL --> i|u|b|strong|abbr
+
+
+
+
+letter ->a|b|...z|A|B|...Z|epsilon
+digit ->0|1|...|9|epsilon
+charnum -> letter|digit|
+
+Comment --> <-- charnum -->
+
+
+------------------------------------------------------
+
+

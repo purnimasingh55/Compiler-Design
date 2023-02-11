@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Compiler</title>
+    <script>
+        function compileHTML(field,e){
+            document.getElementById('output').innerHTML = field.value;
+        }
+    </script>
+</head>
+<body>
+<div style="display: flex;"></div>
+    <textarea style="flex: 1;height: 200px;" placeholder="HTML goes here..." onkeyup="compileHTML(this)"></textarea>
+</div>
+    <div id="output"> </div>
+    
+</body>
+</html>
+
+
+<!-- 
+<h1> Compiler Design Project </h1>
+<h3> By Group 1 </h3>
+
+
+<html>
+<head>
+<tittle>
+My First Compiler
+</tittle>
+</head>
+<body>
+<h1> Compiler Design Project</h1>
+<p>By Group 1</p>
+</body>
+</html>
+
+-->
